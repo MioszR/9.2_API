@@ -1,0 +1,42 @@
+body {
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+}
+
+.content {
+    width: 500px;
+    height: 250px;
+    background-color: rgb(136, 136, 136);
+    margin: auto;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    padding: 10px;
+    border: 3px solid #ffffff;
+}
+
+.content form {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.content h1 {
+    text-align: center;
+
+}
+
+.content p {
+    text-align: center;
+}
+
+.content button {
+    text-align: left;
+    margin-top: 20%;
+    text-decoration: none;
+}
