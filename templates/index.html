@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kursy walut</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="content">
+            <form method="post">
+                <label for="code">Choose currency</label>
+                <select name="code">
+                    {% for code in code %}
+                    <option value={{code}}>{{code}}</option>
+                    {% endfor %}
+                </select>
+                <br>
+                <label for="amount">How much?</label>
+                <input type="number" name="amount" min="1" step=".01">
+                <button type="submit">Convert</button>
+            </form>
+        </div>
+    </body>
+</html>
